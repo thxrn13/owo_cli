@@ -15,7 +15,7 @@ dependencies = [
 Repository = "https://github.com/thxrn13/owo"
 
 [project.scripts]
-owo = "owo.cli:main"
+owo_cli = "owo.cli:main"
 
 [build-system]
 requires = ["uv_build>=0.11.2,<0.12.0"]
