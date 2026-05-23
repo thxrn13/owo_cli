@@ -33,10 +33,10 @@ def main() -> None:
 
         # open shell profile and add aliases
         with open(shell_file_name, 'a') as f:
-            lines = ["# >>> owo/owo >>>\n",
-                     "alias owo=thefuck\n",
-                     "alias owo='sudo $(fc -ln -1)'\n",
-                     "# <<< owo/owo <<<\n"]
+            lines = ["# >>> owo_cli/owo_cli >>>\n",
+                     "alias owo_cli=thefuck\n",
+                     "alias owo_cli='sudo $(fc -ln -1)'\n",
+                     "# <<< owo_cli/owo_cli <<<\n"]
             if os.name == 'posix':
                 f.write("\n\n")
                 f.writelines(lines)
@@ -52,7 +52,7 @@ def main() -> None:
 
         # open profile file and update aliases
         with open(profile, 'a') as f:
-            f.write('\n\niex "$(thefuck --alias owo)"\n')
+            f.write('\n\niex "$(thefuck --alias owo_cli)"\n')
 
             # prompt user to refresh
             print('restart shell or run \n\n\t. $PROFILE\n\nfor changes to take effect')

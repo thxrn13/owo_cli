@@ -3,7 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/owo.iml" filepath="$PROJECT_DIR$/.idea/owo.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/owo@1.iml" filepath="$PROJECT_DIR$/.idea/owo@1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/owo_cli.iml" filepath="$PROJECT_DIR$/.idea/owo_cli.iml" />
     </modules>
   </component>
 </project>
